@@ -6,11 +6,6 @@ import string
 
 #forritið mun geyma í sér gildi, og hægt verður að ferðast um hnitakerfi frá 1,1 í 3,3 ( ferkantað hnitakerfi)
 # það er "völundarhús" á leiðinni, þannig að til að ná í "Victory" þá þarf að ferðast alveg í norður
-# og svo austur og suður. - Sé það ekki gert, þá lendir notandi á vegg... (en getur farið út úr völundarhúsinu aftur)
-EAST_MAX_VALUE = 3
-WEST_MAX_VALUE = 1
-NORTH_MAX_VALUE = 3
-SOUTH_MAX_VALUE = 1
 lastinputwrong = False
 errortxt = 'Not a valid direction!'
 northonly = 'You can travel: (N)orth.'
